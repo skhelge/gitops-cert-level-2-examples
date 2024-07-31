@@ -22,7 +22,7 @@ spec:
     server: https://kubernetes.default.svc
     namespace: kubeview
 
-  # Sync policy updates
+  # Sync policy
   syncPolicy:
     syncOptions:
       - CreateNamespace=true  
